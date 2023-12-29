@@ -1,0 +1,17 @@
+.header {
+    background-color: #1F2937;
+    font-family: 'Roboto';
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
