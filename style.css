@@ -1,17 +1,37 @@
 .header {
     background-color: #1F2937;
-    font-family: 'Roboto';
+    font-family: roboto;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-style: italic;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 img {
-    width: 24px;
-    height: 24px;
+    width: 48x;
+    height: 48px;
 }
 
 ul {
+    display: flex;
     list-style: none;
+    justify-content: end;
+    gap: 24px;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
 }
