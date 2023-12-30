@@ -21,6 +21,7 @@ nav {
 
 .logo {
     font-style: italic;
+    font-weight: bolder;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -72,4 +73,30 @@ button.join {
     border: 1px #3882F6;
     color: #F9FAF8;
     margin: 12px 0;
+}
+
+.info-header {
+    padding: 5% 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-wrap: none;
+}
+
+.container {
+    display: flex;
+    padding: 0 15%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.team {
+    max-width: 150px;
+    text-align: center;
+}
+
+.team img {
+    width: 150px;
+    height: 170px;
 }
